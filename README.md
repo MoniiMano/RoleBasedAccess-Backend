@@ -246,21 +246,6 @@ npm run test:connection
 # Change port in .env
 PORT=5001
 ```
-
-## 📦 Environment Variables
-
-```env
-NODE_ENV=development
-PORT=5000
-MONGODB_URI=mongodb://localhost:27017/vistaflow
-JWT_SECRET=your-secret-key
-JWT_EXPIRE=7d
-JWT_COOKIE_EXPIRE=7
-CLIENT_URL=http://localhost:3000
-RATE_LIMIT_WINDOW_MS=900000
-RATE_LIMIT_MAX_REQUESTS=100
-```
-
 ## 🎯 Features Implemented
 
 - ✅ User authentication & authorization (JWT)
